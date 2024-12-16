@@ -9,6 +9,8 @@ import umc6th.spring6th.apiPayload.ApiResponse;
 import umc6th.spring6th.converter.MemberConverter;
 import umc6th.spring6th.domain.Member;
 import umc6th.spring6th.service.MemberService.MemberCommandService;
+import umc6th.spring6th.web.dto.MemberRequestDTO;
+import umc6th.spring6th.web.dto.MemberResponseDTO;
 
 @RestController
 @RequestMapping({"/members"})
