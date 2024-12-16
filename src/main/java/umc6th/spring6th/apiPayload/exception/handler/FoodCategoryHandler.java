@@ -1,4 +1,10 @@
 package umc6th.spring6th.apiPayload.exception.handler;
 
-public class FoodCategoryHandler {
+import umc6th.spring6th.apiPayload.code.BaseErrorCode;
+import umc6th.spring6th.apiPayload.exception.GeneralException;
+
+public class FoodCategoryHandler extends GeneralException {
+    public FoodCategoryHandler(BaseErrorCode errorCode) {
+        super(errorCode);
+    }
 }

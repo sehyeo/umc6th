@@ -1,4 +1,10 @@
 package umc6th.spring6th.apiPayload.exception.handler;
 
-public class TempHandler {
+import umc6th.spring6th.apiPayload.code.BaseErrorCode;
+import umc6th.spring6th.apiPayload.exception.GeneralException;
+
+public class TempHandler extends GeneralException {
+    public TempHandler(BaseErrorCode errorCode) {
+        super(errorCode);
+    }
 }
